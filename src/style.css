@@ -67,10 +67,10 @@ padding: 10px 25px;
     }
 
     .quote {
-    padding: 4px;
-    margin-left: 4px;
-    margin-right: 4px;
-    width: 100%;
+    padding: 0;
+    margin-left: 4px; /* Remove left margin */
+    margin-right: 4px; /* Remove right margin */
+    width: 90%;
     }
   }
   
