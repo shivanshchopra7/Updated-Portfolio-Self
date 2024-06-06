@@ -1,0 +1,93 @@
+
+.portfolio-container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4%;
+
+    
+}
+span {
+    color: #008080;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-radius: 5%;
+   
+    border: 1px solid var(--color-dark);
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+    height: 100%;
+}
+.project img{
+    height: 14rem;
+   
+    object-fit: contain;
+   
+ 
+    
+}
+.project-action{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.project-action .btn{
+    border-radius: 100px;
+padding: 10px 25px;
+    margin-bottom: 1.5rem;
+    
+}
+.btn{
+
+    color: black;
+}
+
+.video {
+    display: none;
+}
+.quote {
+    position: relative;
+  padding: 70px;
+    font-size: 1.18rem; /* equivalent to text-lg */
+    
+    font-family: monospace; /* equivalent to font-mono */
+  }
+
+  .quote::before,
+  .quote::after {
+    content: "“";
+    font-size: 6rem;
+    position: absolute;
+    color: rgba(2, 1, 1, 0.525);
+  }
+
+  .quote::before {
+    left: 0;
+    top: -10px;
+  }
+
+  .quote::after {
+    content: "”";
+    right: 0;
+    bottom: -10px;
+  }
+  .big-comma {
+          font-size: 1.5em;
+           /* You can change the color as needed */
+      }
+      @media (max-width: 640px) {
+.portfolio-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Display cards in a single column */
+  gap: 20px; /* Adjust the gap between cards */
+  margin-left: 4px; /* Remove left margin */
+  margin-right: 4px; /* Remove right margin */
+}
+}
