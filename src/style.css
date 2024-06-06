@@ -60,6 +60,21 @@ padding: 10px 25px;
     font-family: monospace; /* equivalent to font-mono */
   }
 
+  @media (max-width: 640px) {
+    .quote::before,
+    .quote::after {
+      display: none;
+    }
+
+    .quote {
+    padding: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 100%;
+    }
+  }
+  
+  
   .quote::before,
   .quote::after {
     content: "“";
