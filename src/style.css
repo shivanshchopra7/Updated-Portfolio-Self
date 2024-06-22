@@ -2,7 +2,7 @@
 .portfolio-container{
     
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     gap: 4%;
 
     
@@ -24,8 +24,8 @@ span {
     height: 100%;
 }
 .project img{
-    height: 14rem;
-   
+    height: 18rem;
+    
     object-fit: contain;
    
  
@@ -104,5 +104,9 @@ padding: 10px 25px;
   gap: 20px; /* Adjust the gap between cards */
   margin-left: 4px; /* Remove left margin */
   margin-right: 4px; /* Remove right margin */
+}
+
+.project img{
+  height: 14rem;
 }
 }
